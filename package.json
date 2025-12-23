@@ -1,0 +1,21 @@
+{
+  "name": "upstage-apply-demo",
+  "version": "1.0.0",
+  "description": "SafeOTA-ECU: AUTOSAR-based OTA Update System Portfolio Project",
+  "scripts": {
+    "build:presentation": "marp docs/Presentation.md -o public/index.html --html",
+    "serve": "marp docs/Presentation.md -s -p 8080"
+  },
+  "keywords": [
+    "AUTOSAR",
+    "OTA",
+    "ECU",
+    "embedded",
+    "STM32"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@marp-team/marp-cli": "^3.4.0"
+  }
+}
